@@ -1,3 +1,25 @@
-a: "apple"
-b: "bat"
-c: "cat"
+# Vars file for aws nacl creation. Below are the instruction to fill the file
+#profile: "cloudops"   Enter AWS profile
+#vpc_id: "vpc-0e48ae511d1c3749d"   Enter ID of VPC for which NACL is created
+#nacl_name: "dev-dmz-nacl"      Enter NACL name to be created
+#region: "ap-south-1"           Enter region name
+#subnet_list:                                          
+#  - dev                         List of subnet to be associated with NACL
+#  - test
+#ingress_list:
+#  - [200,tcp,allow,0.0.0.0/0,null,null,22,22]         rule no, protocol, allow/deny, cidr, icmp_type, icmp_code,port from, port to
+#  - [300,tcp,allow,0.0.0.0/0,null,null,32,32].
+#egress_list:
+#  - [200,tcp,allow, 0.0.0.0/0, null, null, 22, 22]    rule no, protocol, allow/deny, cidr, icmp_type, icmp_code,port from, port to
+# Please fill the variables given below.
+
+profile: ""                         
+vpc_id: ""     
+nacl_name: ""          
+region: ""                
+subnet_list:
+  - 
+ingress_list:
+  - 
+egress_list:
+  -
