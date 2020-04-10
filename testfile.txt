@@ -13,13 +13,13 @@
 #  - [200,tcp,allow, 0.0.0.0/0, null, null, 22, 22]    rule no, protocol, allow/deny, cidr, icmp_type, icmp_code,port from, port to
 # Please fill the variables given below.
 
-profile: ""                         
-vpc_id: ""     
-nacl_name: ""          
-region: ""                
+profile: "1"                         
+vpc_id: "1"     
+nacl_name: "1"          
+region: "1"                
 subnet_list:
-  - 
+  - 1
 ingress_list:
-  - 
+  - 1
 egress_list:
-  -
+  - 1
